@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background-color:rgb(220, 220, 220); font-family: verdana" lang = "en">
+<html style="background-color:rgb(0, 0, 0); font-family: verdana" lang = "en">
 	<head>
 		<!-- Required meta tags -->
 		
@@ -10,17 +10,30 @@
 		
 		<title>Adithya Ashok</title>
 	<style>
+
 	.center {
   	 max-width: 960px;
  	 margin: auto;
  	 padding: 30px;
 	}
-	.color-change-2x {
-	-webkit-animation: color-change-2x 8s linear infinite alternate both;
-	        animation: color-change-2x 8s linear infinite alternate both;
-	}
+
+	.parallax { 
+	  /* The image used */
+	  background-image: url("./Images/img_parallax.jpg");
+
+	  /* Set a specific height */
+	  height: 500px; 
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	} 
+
 	</style>
-	<body class = "color-change-2x">
+	<body style="background-color:rgb(0, 0, 0);color:white">
+		<div class="parallax"></div>
 		<div class="center">
  		 <!-- Page content -->
 
@@ -28,14 +41,17 @@
 		<h2 style="text-align: center; font-size: 3vw;">University of Texas, Austin</h2>
 		<h3 style="text-align: center;">Electrical and Computer Engineering + Plan II Honors</h3>
 		<p></p>
+		</div>
+		<div class="parallax"></div>
+		<div class="center">
 		<p style="text-align: center;">This page is under construction... </p> 
-		<p style="text-align: center;"> Meanwhile, you can check out my <a href = "https://github.com/adithyashok"> GitHub </a></p>
+		<p style="text-align: center;"> Meanwhile, you can check out my <a href = "https://github.com/adithyashok" style="color:green"> GitHub </a></p>
 		<hr>
-		<p style="text-align: center;"><a href="Adithya Ashok Resume.pdf" style="font-size: 25px;">Resume</a>
+		<p style="text-align: center;"><a href="Adithya Ashok Resume.pdf" style="font-size: 25px; color:green">Resume</a>
 		<hr>
 		<h3 style="text-align: center;"> Engineering Projects <h3>
 		<hr>
-		<pre style="font-size: 15px">
+		<pre style="font-size: 15px;color:white">
 Robotics and Automation Society (RAS) 
 	▪ Robotathon 2018: Designed an automated robot to compete in a Robot-Sumo Wrestling Challenge at UT. 
 	  Winner of the ‘Best Mechanical Design’ award.
