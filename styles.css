@@ -25,8 +25,9 @@
 	  background-size: cover;
 	}
 
-	.center {
+	.center { /*Centers the content of the website*/
   	 max-width: 960px;
  	 margin: auto;
  	 padding: 30px;
+ 	 text-align: center;
 	}
